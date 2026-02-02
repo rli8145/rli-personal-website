@@ -1,1 +1,15 @@
 namecheap-order.pdf
+
+.DS_Store
+
+.vscode/
+.idea/
+
+.env
+.env.*
+
+__pycache__/
+.venv/
+*.py[cod]
+
+*.log
