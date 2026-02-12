@@ -13,14 +13,14 @@
 .project-card {
   background-color: var(--bg-primary);
   padding: 2rem;
-  border-radius: 10px;
-  box-shadow: var(--shadow);
+  border-radius: 2px;
+  border: 1px solid var(--border-color);
   transition: var(--transition);
 }
 
 .project-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  border-color: var(--primary-color);
+  box-shadow: 0 0 20px rgba(0, 212, 255, 0.2);
 }
 
 .project-card h3 {
@@ -43,11 +43,12 @@
 }
 
 .tech-tag {
-  background-color: var(--bg-secondary);
+  background-color: transparent;
   padding: 0.3rem 0.8rem;
-  border-radius: 15px;
-  font-size: 0.9rem;
-  color: var(--text-primary);
+  border-radius: 2px;
+  border: 1px solid var(--border-color);
+  font-size: 0.85rem;
+  color: var(--text-light);
 }
 
 .project-links {
@@ -64,5 +65,5 @@
 
 .project-link:hover {
   color: var(--secondary-color);
-  text-decoration: underline;
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.5);
 }
