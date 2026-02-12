@@ -5,6 +5,9 @@ function Hero() {
     <section id="home" className="hero">
       <div className="container">
         <div className="hero-content">
+          <div className="profile-photo">
+            <img src="/profile.jpg" alt="Ryan Li" />
+          </div>
           <h1 className="hero-title">
             Hi, I'm <span className="highlight">Ryan Li</span>
           </h1>
