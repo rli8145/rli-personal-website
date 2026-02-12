@@ -20,7 +20,6 @@
 
 .project-card:hover {
   border-color: var(--primary-color);
-  box-shadow: 0 0 20px rgba(0, 119, 204, 0.2);
 }
 
 .project-card h3 {
@@ -65,5 +64,4 @@
 
 .project-link:hover {
   color: var(--secondary-color);
-  text-shadow: 0 0 10px rgba(0, 119, 204, 0.5);
 }

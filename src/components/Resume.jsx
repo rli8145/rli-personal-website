@@ -5,7 +5,7 @@ function Resume() {
   const [viewMode, setViewMode] = useState('download')
 
   return (
-    <section id="resume" className="resume">
+    <section className="resume">
       <div className="container">
         <h2 className="section-title">Resume</h2>
 

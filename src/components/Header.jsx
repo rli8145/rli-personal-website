@@ -1,43 +1,30 @@
-import { useState, useEffect } from 'react'
+import { NavLink } from 'react-router-dom'
+import ThemeToggle from './ThemeToggle'
 import './Header.css'
 
 function Header() {
-  const [activeSection, setActiveSection] = useState('home')
-
-  useEffect(() => {
-    const handleScroll = () => {
-      const sections = ['home', 'about', 'resume', 'projects']
-      const scrollPosition = window.scrollY + 100
-
-      for (const section of sections) {
-        const element = document.getElementById(section)
-        if (element) {
-          const { offsetTop, offsetHeight } = element
-          if (scrollPosition >= offsetTop && scrollPosition < offsetTop + offsetHeight) {
-            setActiveSection(section)
-            break
-          }
-        }
-      }
-    }
-
-    window.addEventListener('scroll', handleScroll)
-    handleScroll() // Initial call
-
-    return () => window.removeEventListener('scroll', handleScroll)
-  }, [])
-
   return (
     <header className="header">
       <div className="container">
         <div className="logo">
-          <h1>Ryan Li</h1>
+          <NavLink to="/">
+            <h1>Ryan Li</h1>
+          </NavLink>
         </div>
         <nav className="nav">
-          <a href="#home" className={activeSection === 'home' ? 'active' : ''}>Home</a>
-          <a href="#about" className={activeSection === 'about' ? 'active' : ''}>About</a>
-          <a href="#resume" className={activeSection === 'resume' ? 'active' : ''}>Resume</a>
-          <a href="#projects" className={activeSection === 'projects' ? 'active' : ''}>Projects</a>
+          <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''} end>
+            Home
+          </NavLink>
+          <NavLink to="/about" className={({ isActive }) => isActive ? 'active' : ''}>
+            About
+          </NavLink>
+          <NavLink to="/resume" className={({ isActive }) => isActive ? 'active' : ''}>
+            Resume
+          </NavLink>
+          <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>
+            Projects
+          </NavLink>
+          <ThemeToggle />
         </nav>
       </div>
     </header>

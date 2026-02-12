@@ -26,13 +26,12 @@
 .resume-btn:hover {
   color: var(--primary-color);
   border-color: var(--primary-color);
-  box-shadow: 0 0 10px rgba(0, 119, 204, 0.3);
 }
 
 .resume-btn.active {
   color: var(--primary-color);
   border-color: var(--primary-color);
-  background-color: rgba(0, 119, 204, 0.1);
+  background-color: rgba(128, 128, 128, 0.1);
 }
 
 .resume-content {
@@ -58,7 +57,6 @@
 
 .download-card:hover {
   border-color: var(--primary-color);
-  box-shadow: 0 0 20px rgba(0, 119, 204, 0.2);
 }
 
 .download-card svg {
@@ -103,7 +101,6 @@
 
 .resume-fallback a:hover {
   color: var(--secondary-color);
-  text-shadow: 0 0 10px rgba(0, 119, 204, 0.5);
 }
 
 @media (max-width: 768px) {

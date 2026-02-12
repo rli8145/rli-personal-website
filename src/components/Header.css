@@ -13,6 +13,10 @@
   align-items: center;
 }
 
+.logo a {
+  text-decoration: none;
+}
+
 .logo h1 {
   font-size: 1.5rem;
   color: var(--primary-color);
@@ -21,6 +25,7 @@
 .nav {
   display: flex;
   gap: 2rem;
+  align-items: center;
 }
 
 .nav a {
@@ -33,7 +38,6 @@
 
 .nav a:hover {
   color: var(--primary-color);
-  text-shadow: 0 0 10px rgba(0, 119, 204, 0.5);
 }
 
 .nav a::after {
@@ -45,7 +49,6 @@
   height: 1px;
   background-color: var(--primary-color);
   transition: var(--transition);
-  box-shadow: 0 0 5px rgba(0, 119, 204, 0.5);
 }
 
 .nav a:hover::after {

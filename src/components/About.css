@@ -42,7 +42,6 @@
 .skill-tag:hover {
   border-color: var(--primary-color);
   color: var(--primary-color);
-  box-shadow: 0 0 10px rgba(0, 119, 204, 0.3);
 }
 
 @media (max-width: 768px) {

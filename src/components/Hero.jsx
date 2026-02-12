@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom'
 import './Hero.css'
 
 function Hero() {
   return (
-    <section id="home" className="hero">
+    <section className="hero">
       <div className="container">
         <div className="hero-content">
           <div className="profile-photo">
@@ -43,8 +44,8 @@ function Hero() {
             I build exceptional digital experiences that make an impact
           </p>
           <div className="hero-cta">
-            <a href="#resume" className="btn btn-primary">View Resume</a>
-            <a href="#projects" className="btn btn-secondary">View Projects</a>
+            <Link to="/resume" className="btn btn-primary">View Resume</Link>
+            <Link to="/projects" className="btn btn-secondary">View Projects</Link>
           </div>
         </div>
       </div>
