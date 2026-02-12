@@ -5,3 +5,6 @@
 - Hobbies, blog
 - Dark mode/light mode
 - Favicon
+- Parallax scrolling
+
+- More minimalist
