@@ -45,9 +45,18 @@
   height: 1px;
   background-color: var(--primary-color);
   transition: var(--transition);
+  box-shadow: 0 0 5px rgba(0, 212, 255, 0.5);
 }
 
 .nav a:hover::after {
+  width: 100%;
+}
+
+.nav a.active {
+  color: var(--primary-color);
+}
+
+.nav a.active::after {
   width: 100%;
 }
 
