@@ -91,7 +91,3 @@ body {
 .page {
   min-height: calc(100vh - 120px);
 }
-
-.home-page .hero {
-  min-height: calc(100vh - 120px);
-}
