@@ -85,11 +85,13 @@
   font-size: 0.9rem;
   color: var(--text-secondary);
   text-decoration: none;
-  transition: var(--transition);
+  transform-origin: left center;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .resume-link:hover {
   color: var(--primary-color);
+  transform: scale(1.02);
 }
 
 .resume-link svg {

@@ -1,7 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import MainLayout from './layouts/MainLayout'
 import HomePage from './pages/HomePage'
-import ResumePage from './pages/ResumePage'
 import ProjectsPage from './pages/ProjectsPage'
 import BlogPage from './pages/BlogPage'
 import './App.css'
@@ -11,7 +10,6 @@ function App() {
     <Routes>
       <Route path="/" element={<MainLayout />}>
         <Route index element={<HomePage />} />
-        <Route path="resume" element={<ResumePage />} />
         <Route path="projects" element={<ProjectsPage />} />
         <Route path="blog" element={<BlogPage />} />
       </Route>

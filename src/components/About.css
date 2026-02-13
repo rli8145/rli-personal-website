@@ -46,6 +46,12 @@
   display: inline-flex;
   align-items: center;
   gap: 0.15rem;
+  transform-origin: left center;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.external-link:hover {
+  transform: scale(1.02);
 }
 
 .external-link svg {
