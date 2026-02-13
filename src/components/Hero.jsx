@@ -1,7 +1,37 @@
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import './Hero.css'
 
 function Hero() {
+  const fullText = "Hi, I'm Ryan Li"
+  const [displayText, setDisplayText] = useState('')
+  const [isDeleting, setIsDeleting] = useState(false)
+
+  useEffect(() => {
+    const typeSpeed = isDeleting ? 50 : 100
+    const pauseTime = isDeleting ? 500 : 2000
+
+    if (!isDeleting && displayText === fullText) {
+      setTimeout(() => setIsDeleting(true), pauseTime)
+      return
+    }
+
+    if (isDeleting && displayText === '') {
+      setTimeout(() => setIsDeleting(false), pauseTime)
+      return
+    }
+
+    const timeout = setTimeout(() => {
+      setDisplayText(prev =>
+        isDeleting
+          ? fullText.substring(0, prev.length - 1)
+          : fullText.substring(0, prev.length + 1)
+      )
+    }, typeSpeed)
+
+    return () => clearTimeout(timeout)
+  }, [displayText, isDeleting])
+
   return (
     <section className="hero">
       <div className="hero-content">
@@ -9,7 +39,7 @@ function Hero() {
           <img src="/profile.jpg" alt="Ryan Li" />
         </div>
         <h1 className="hero-title">
-          Hi, I'm <span className="highlight">Ryan Li</span>
+          {displayText}<span className="cursor">|</span>
         </h1>
         <p className="hero-subtitle">Math @ uWaterloo</p>
         <div className="social-icons">
