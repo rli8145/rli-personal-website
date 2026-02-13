@@ -17,6 +17,14 @@ export function ThemeProvider({ children }) {
     localStorage.setItem('theme', theme)
   }, [theme])
 
+  // Enable transitions after initial render to prevent flash
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      document.documentElement.classList.add('transitions-enabled')
+    }, 100)
+    return () => clearTimeout(timer)
+  }, [])
+
   const toggleTheme = () => {
     setTheme(prev => prev === 'dark' ? 'light' : 'dark')
   }

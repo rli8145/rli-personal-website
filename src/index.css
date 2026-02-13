@@ -4,6 +4,21 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #000000;
+}
+
+html[data-theme="light"] {
+  background-color: #f5f5f0;
+}
+
+/* Only enable transitions after page load */
+html.transitions-enabled *,
+html.transitions-enabled *::before,
+html.transitions-enabled *::after {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, fill 0.3s ease, stroke 0.3s ease;
+}
+
 :root {
   /* Dark theme (default) */
   --primary-color: #f5f5f0;
@@ -38,7 +53,6 @@ body {
   font-size: 14px;
   color: var(--text-primary);
   background-color: var(--bg-primary);
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
