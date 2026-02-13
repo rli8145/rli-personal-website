@@ -5,5 +5,7 @@
 - Hobbies, blog
 - Favicon
 - Parallax scrolling
+- (re)add skills/technologies?
+- (re)add resume section?
 
 - More minimalist

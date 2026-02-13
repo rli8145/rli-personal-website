@@ -20,33 +20,38 @@
   line-height: 1.6;
 }
 
-.skills h3 {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-bottom: 1rem;
-  color: var(--text-primary);
-}
-
-.skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.skill-tag {
-  background-color: transparent;
-  padding: 0.3rem 0.75rem;
-  border-radius: 2px;
-  border: 1px solid var(--border-color);
+.interests-list {
+  font-size: 0.9rem;
   color: var(--text-secondary);
-  font-size: 0.8rem;
-  font-weight: 400;
+  line-height: 1.6;
+  margin: 0 0 0.75rem 1.25rem;
+  padding: 0;
+}
+
+.interests-list li {
+  margin-bottom: 0.25rem;
+}
+
+.about-text a {
+  color: var(--text-primary);
+  text-decoration: none;
   transition: var(--transition);
 }
 
-.skill-tag:hover {
-  border-color: var(--primary-color);
+.about-text a:hover {
   color: var(--primary-color);
+}
+
+.external-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.external-link svg {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
 }
 
 @media (max-width: 900px) {

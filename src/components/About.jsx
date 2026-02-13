@@ -7,26 +7,21 @@ function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            I'm a passionate software engineer with expertise in building
-            modern web applications. I love turning complex problems into
-            simple, beautiful, and intuitive solutions.
+            I'm a passionate student and creator interested in anything math or tech.
+            As a strong believer in lifelong learning, I'm always searching for
+            opportunities to expand my horizons and integrate theory into real-world
+            applications. In my free time I enjoy:
           </p>
+          <ul className="interests-list">
+            <li>solving puzzles and HARD math problems</li>
+            <li>building stuff!</li>
+            <li>playing poker</li>
+            <li>watching good movies (<a href="https://letterboxd.com/rli8145/" target="_blank" rel="noopener noreferrer" className="external-link">Letterboxd<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>) and listening to music (<a href="https://open.spotify.com/user/ryanli-nz" target="_blank" rel="noopener noreferrer" className="external-link">Spotify<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>)</li>
+            <li>playing golf</li>
+          </ul>
           <p>
-            My focus is on writing clean, maintainable code and creating
-            seamless user experiences. I'm always eager to learn new
-            technologies and take on challenging projects.
+            Feel free to reach out at rr2li [at] uwaterloo [dot] ca if you want to chat!
           </p>
-        </div>
-        <div className="skills">
-          <h3>Skills & Technologies</h3>
-          <div className="skills-grid">
-            <span className="skill-tag">React</span>
-            <span className="skill-tag">JavaScript</span>
-            <span className="skill-tag">TypeScript</span>
-            <span className="skill-tag">Node.js</span>
-            <span className="skill-tag">HTML/CSS</span>
-            <span className="skill-tag">Git</span>
-          </div>
         </div>
       </div>
     </section>
