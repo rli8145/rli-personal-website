@@ -20,12 +20,13 @@
 .footer-links a {
   color: var(--text-secondary);
   text-decoration: none;
-  transition: var(--transition);
+  display: inline-block;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .footer-links a:hover {
   color: var(--primary-color);
-  text-shadow: 0 0 10px rgba(0, 119, 204, 0.5);
+  transform: scale(1.02);
 }
 
 .copyright {
