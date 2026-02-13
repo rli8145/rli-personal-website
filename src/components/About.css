@@ -32,31 +32,25 @@
   margin-bottom: 0.25rem;
 }
 
-.about-text a {
-  color: var(--text-primary);
-  text-decoration: none;
-  transition: var(--transition);
-}
-
-.about-text a:hover {
-  color: var(--primary-color);
-}
-
-.external-link {
+.about-text a.external-link {
   display: inline-flex;
   align-items: center;
-  gap: 0.15rem;
+  gap: 0.25rem;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  text-decoration: none;
   transform-origin: left center;
   transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.external-link:hover {
+.about-text a.external-link:hover {
+  color: var(--primary-color);
   transform: scale(1.02);
 }
 
 .external-link svg {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   flex-shrink: 0;
 }
 
