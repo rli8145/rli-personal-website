@@ -20,7 +20,7 @@ function Projects() {
    {
       id: 3,
       title: 'Weather Playlist Generator',
-      description: 'Classifies user-inputted songs and generates weather-matching Spotify playlists using classical machine learning.',
+      description: 'Classifies user-inputted songs and generates weather-matching Spotify playlists using machine learning.',
       technologies: ['React', 'scikit-learn', 'Spotify Web API', 'ReccoBeats API'],
       github: 'https://github.com/rli8145/weather-playlist-generator'
     },
