@@ -1,5 +1,5 @@
 .home-page {
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 130px);
   display: flex;
   align-items: center;
 }
@@ -15,7 +15,7 @@
 }
 
 .home-left {
-  padding-top: 2rem;
+  padding-top: 0;
 }
 
 @media (max-width: 900px) {
