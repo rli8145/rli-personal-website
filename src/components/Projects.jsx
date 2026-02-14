@@ -37,6 +37,7 @@ function Projects() {
     <section className="projects">
       <div className="container">
         <h2 className="section-title">Projects</h2>
+        <p className="projects-intro">Some stuff I've built lately.</p>
         <div className="projects-list">
           {projects.map((project) => (
             <div key={project.id} className="project-item">

@@ -60,6 +60,13 @@
   margin-bottom: 1.25rem;
 }
 
+.resume-links {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.35rem;
+}
+
 .social-icon {
   color: var(--text-secondary);
   transition: var(--transition);
