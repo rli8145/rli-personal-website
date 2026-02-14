@@ -25,7 +25,7 @@ function About() {
                 <polyline points="7 7 17 7 17 17"/>
               </svg>
             </a>
-            . I'm always open to discussing new opportunities and ideas, so feel free to{' '}
+            . I'm always open to discussing new opportunities and ideas; please feel free to{' '}
             <a href="mailto:rr2li@uwaterloo.ca" className="external-link">
               reach out
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -33,7 +33,7 @@ function About() {
                 <polyline points="7 7 17 7 17 17"/>
               </svg>
             </a>
-            .
+            !
           </p>
         </div>
       </div>
