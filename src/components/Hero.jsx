@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import MagneticIcon from './MagneticIcon'
 import './Hero.css'
 
@@ -68,13 +69,13 @@ function Hero() {
               <polyline points="7 7 17 7 17 17"/>
             </svg>
           </a>
-          <a href="/projects" className="resume-link">
+          <Link to="/projects" className="resume-link">
             Check out my recent projects
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <line x1="7" y1="17" x2="17" y2="7"/>
               <polyline points="7 7 17 7 17 17"/>
             </svg>
-          </a>
+          </Link>
         </div>
       </div>
     </section>
