@@ -1,7 +1,12 @@
 .home-page {
   min-height: calc(100vh - 130px);
+  display: block;
+}
+
+.home-hero {
   display: flex;
   align-items: center;
+  min-height: calc(100vh - 130px);
 }
 
 .home-container {
@@ -11,7 +16,7 @@
   max-width: 750px;
   margin: 0 auto;
   padding: 2rem 20px;
-  align-items: start;
+  align-items: center;
 }
 
 .home-left {

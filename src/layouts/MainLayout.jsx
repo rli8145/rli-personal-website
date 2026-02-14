@@ -17,7 +17,7 @@ function MainLayout() {
   return (
     <div className="App">
       <Header />
-      <main className={isAnimating ? 'page-enter' : ''}>
+      <main key={location.pathname} className={isAnimating ? 'page-enter' : ''}>
         <Outlet />
       </main>
       <Footer />
