@@ -7,7 +7,7 @@ function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Passionate about systems-level software, computational modeling, and abstract mathematics.
+            Passionate about algorithmic and data-driven systems, computational modeling, and abstract mathematics.
             In my free time I enjoy:
           </p>
           <ul className="interests-list">
