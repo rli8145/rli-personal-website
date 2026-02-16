@@ -19,7 +19,7 @@ function Projects() {
     },
    {
       id: 3,
-      title: 'Weather Playlist Generator',
+      title: 'Weather-Conditioned Music Classifier',
       description: 'Classifies user-inputted songs and generates weather-matching Spotify playlists using machine learning.',
       technologies: ['React', 'scikit-learn', 'Spotify Web API', 'ReccoBeats API'],
       github: 'https://github.com/rli8145/weather-playlist-generator'
@@ -30,6 +30,13 @@ function Projects() {
       description: 'B2B dashboard optimizing cost-emission tradeoffs in steel manufacturing supply chains.',
       technologies: ['Next.js', 'DS.js', 'FastAPI', 'pandas'],
       github: 'https://github.com/rli8145/MITEC-Array-Technologies'
+    },
+    {
+      id: 5,
+      title: '2xN Tiling Enumeration and Closed-Form Analysis',
+      description: 'Computational companion to IB Mathematics AA HL Internal Assessment exploring tiling combinatorics.',
+      technologies: ['C++', 'Sympy', 'mpmath'],
+      github: 'https://github.com/rli8145/tiling-combinatorics'
     }
   ]
 
