@@ -33,7 +33,7 @@ function Projects() {
     },
     {
       id: 5,
-      title: '2xN Tiling Enumeration and Closed-Form Analysis',
+      title: '2xN Tiling: Enumeration and Closed-Form Analysis',
       description: 'Computational companion to IB Mathematics AA HL Internal Assessment exploring tiling combinatorics.',
       technologies: ['C++', 'Sympy', 'mpmath'],
       github: 'https://github.com/rli8145/tiling-combinatorics'
