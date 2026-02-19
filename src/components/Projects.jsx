@@ -4,13 +4,21 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      title: 'Reed-Solomon Error Correction Library',
+      description: 'Implementation of Reed-Solomon error-correcting codes over finite fields, with two decoding algorithms - Berlekamp-Welch and Euclidean.',
+      technologies: ['C++', 'GMP', 'Google Test', 'matplotlib'],
+      github: 'https://github.com/rli8145/reed-solomon',
+      award: 'In Progress'
+    },
+    {
+      id: 2,
       title: 'AR-Enhanced Device Repair Assistant',
       description: 'Augmented reality application that guides users through device repairs step-by-step.',
       technologies: ['YOLOv11n', 'OpenCV', 'GPT-4o Vision', 'OpenAI Whisper API'],
       github: 'https://github.com/danielkwan-dev/golden-age'
     },
     {
-      id: 2,
+      id: 3,
       title: 'Audio Ad Insertion Engine',
       description: 'Dynamically inserts targeted advertisements into audio streams in real-time.',
       technologies: ['Node.js', 'ElevenLabs API', 'Pydub', 'FFmpeg'],
@@ -18,23 +26,23 @@ function Projects() {
       award: 'UofTHacks Winner'
     },
    {
-      id: 3,
+      id: 4,
       title: 'Weather-Conditioned Music Classifier',
       description: 'Classifies user-inputted songs and generates weather-matching Spotify playlists using machine learning.',
       technologies: ['React', 'scikit-learn', 'Spotify Web API', 'ReccoBeats API'],
       github: 'https://github.com/rli8145/weather-playlist-generator'
     },
     {
-      id: 4,
+      id: 5,
       title: 'Steel Supply Chain Optimization System',
       description: 'B2B dashboard optimizing cost-emission tradeoffs in steel manufacturing supply chains.',
       technologies: ['Next.js', 'DS.js', 'FastAPI', 'pandas'],
       github: 'https://github.com/rli8145/MITEC-Array-Technologies'
     },
     {
-      id: 5,
-      title: '2xN Tiling: Enumeration and Closed-Form Analysis',
-      description: 'Computational companion to IB Mathematics AA HL Internal Assessment exploring tiling combinatorics.',
+      id: 6,
+      title: '2xN Tiling Solver',
+      description: 'Computational companion to IB Mathematics paper exploring tiling combinatorics via generating functions.',
       technologies: ['C++', 'Sympy', 'mpmath'],
       github: 'https://github.com/rli8145/tiling-combinatorics'
     }
