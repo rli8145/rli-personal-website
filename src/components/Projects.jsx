@@ -21,7 +21,7 @@ function Projects() {
       id: 3,
       title: 'Audio Ad Insertion Engine',
       description: 'Dynamically inserts targeted advertisements into audio streams in real-time.',
-      technologies: ['Node.js', 'ElevenLabs API', 'Pydub', 'FFmpeg'],
+      technologies: ['Node.js', 'React', 'ElevenLabs API', 'Pydub', 'FFmpeg'],
       github: 'https://github.com/jweng121/slotify',
       award: 'UofTHacks Winner'
     },
@@ -43,7 +43,7 @@ function Projects() {
       id: 6,
       title: '2xN Tiling Solver',
       description: 'Computational companion to IB Mathematics paper exploring tiling combinatorics via generating functions.',
-      technologies: ['C++', 'Sympy', 'mpmath'],
+      technologies: ['C++', 'SymPy', 'mpmath'],
       github: 'https://github.com/rli8145/tiling-combinatorics'
     }
   ]
