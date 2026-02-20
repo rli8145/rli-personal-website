@@ -1,3 +1,14 @@
+.pug-overlay {
+  position: fixed;
+  bottom: -30px;
+  left: -20px;
+  width: 120px;
+  height: 120px;
+  opacity: 1;
+  pointer-events: none;
+  z-index: 1000;
+}
+
 main {
   padding-top: 50px;
   padding-bottom: 80px;

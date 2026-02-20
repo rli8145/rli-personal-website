@@ -21,6 +21,7 @@ function MainLayout() {
         <Outlet />
       </main>
       <Footer />
+      <img src="/pug_favicon_512.png" alt="" className="pug-overlay" />
     </div>
   )
 }
