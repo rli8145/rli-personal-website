@@ -62,8 +62,8 @@ function Hero() {
           </MagneticIcon>
         </div>
         <div className="resume-links">
-          <a href="/Resume_cur.pdf" download className="resume-link">
-            Download my resume
+          <a href="/Resume_cur.pdf" target="_blank" rel="noopener noreferrer" className="resume-link">
+            View my resume
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <line x1="7" y1="17" x2="17" y2="7"/>
               <polyline points="7 7 17 7 17 17"/>
