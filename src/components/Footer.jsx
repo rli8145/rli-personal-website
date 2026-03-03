@@ -22,6 +22,7 @@ function Footer() {
             &copy; {currentYear} Ryan Li. Licensed under MIT.
             {/* &nbsp;&middot;&nbsp; Last updated: {buildTime} */}
           </p>
+
         </div>
       </div>
     </footer>
