@@ -41,7 +41,7 @@ function Projects() {
     },
     {
       id: 6,
-      title: '2xN Tiling Solver',
+      title: '2xN Tiling Solver and Analysis Library',
       description: 'Computational companion to IB Mathematics paper exploring tiling combinatorics via generating functions.',
       technologies: ['C++', 'SymPy', 'mpmath'],
       github: 'https://github.com/rli8145/tiling-combinatorics'
