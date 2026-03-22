@@ -17,29 +17,44 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5rem;
 }
 
-.footer-links {
+.footer-bottom {
   display: flex;
-  gap: 1.25rem;
+  align-items: center;
+  width: 100%;
+  position: relative;
 }
 
-.footer-links a {
-  color: var(--text-secondary);
+.footer-bottom .copyright {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.webring {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.webring a {
+  color: var(--text-light);
   text-decoration: none;
-  display: inline-block;
-  transition: color 0.2s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  transition: color 0.2s ease;
 }
 
-.footer-links a:hover {
+.webring a:hover {
   color: var(--primary-color);
-  transform: scale(1.02);
 }
 
 .copyright {
   color: var(--text-light);
   font-size: 0.8rem;
+  margin: 0;
 }
 
 

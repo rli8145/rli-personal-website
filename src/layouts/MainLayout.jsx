@@ -14,10 +14,10 @@ function MainLayout() {
     return () => clearTimeout(timer)
   }, [location.pathname])
 
-  const handlePugClick = () => {
-    const audio = new Audio('/bark.mp3')
-    audio.play()
-  }
+  // const handlePugClick = () => {
+  //   const audio = new Audio('/bark.mp3')
+  //   audio.play()
+  // }
 
   return (
     <div className="App">
@@ -26,12 +26,12 @@ function MainLayout() {
         <Outlet />
       </main>
       <Footer />
-      <img
+      {/* <img
         src="/pug_favicon_512.png"
         alt="pug"
         className="pug-overlay"
         onClick={handlePugClick}
-      />
+      /> */}
     </div>
   )
 }
