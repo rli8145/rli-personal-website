@@ -8,7 +8,6 @@ function Projects() {
       description: 'Implementation of Reed-Solomon error-correcting codes over finite fields, with two decoding algorithms - Berlekamp-Welch and Euclidean.',
       technologies: ['C++', 'GMP', 'Google Test', 'matplotlib'],
       github: 'https://github.com/rli8145/reed-solomon',
-      award: 'In Progress'
     },
     {
       id: 2,
@@ -45,6 +44,13 @@ function Projects() {
       description: 'Computational companion to IB Mathematics paper exploring tiling combinatorics via generating functions.',
       technologies: ['C++', 'SymPy', 'mpmath'],
       github: 'https://github.com/rli8145/tiling-combinatorics'
+    },
+    {
+      id: 7,
+      title: 'UWaterloo Math Webring',
+      description: 'Webring for mathematics students and alumni at the University of Waterloo with 100+ members.',
+      technologies: ['Typescript', 'React', 'CSS'],
+      github: 'https://github.com/JummyJoeJackson/math-webring'
     }
   ]
 
