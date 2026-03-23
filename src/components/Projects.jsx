@@ -48,8 +48,8 @@ function Projects() {
     {
       id: 7,
       title: 'UWaterloo Math Webring',
-      description: 'Webring for mathematics students and alumni at the University of Waterloo with 100+ members.',
-      technologies: ['Typescript', 'React', 'CSS'],
+      description: 'Community-driven webring featuring 100+ mathematics students and alumni from the University of Waterloo.',
+      technologies: ['TypeScript', 'React', 'CSS'],
       github: 'https://github.com/JummyJoeJackson/math-webring'
     }
   ]
