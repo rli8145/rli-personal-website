@@ -1,5 +1,5 @@
 import './Footer.css'
-import WebringIcon from './WebringIcon'
+// import WebringIcon from './WebringIcon'
 
 // const buildTime = new Date(__BUILD_TIME__).toLocaleString('en-US', {
 //   timeZone: 'America/New_York',
@@ -24,13 +24,13 @@ function Footer() {
               &copy; {currentYear} Ryan Li. Licensed under MIT.
               {/* &nbsp;&middot;&nbsp; Last updated: {buildTime} */}
             </p>
-            <div className="webring">
+            {/* <div className="webring">
               <a href="https://math-webring.vercel.app/#ryan-li.ca?nav=prev" aria-label="Previous webring site">←</a>
               <a href="https://math-webring.vercel.app/#ryan-li.ca" target="_blank" rel="noopener noreferrer" aria-label="UW Math Webring">
                 <WebringIcon size={16} color="currentColor" />
               </a>
               <a href="https://math-webring.vercel.app/#ryan-li.ca?nav=next" aria-label="Next webring site">→</a>
-            </div>
+            </div> */}
           </div>
 
         </div>
