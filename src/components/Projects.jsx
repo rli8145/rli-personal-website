@@ -45,13 +45,13 @@ function Projects() {
       technologies: ['C++', 'SymPy', 'mpmath'],
       github: 'https://github.com/rli8145/tiling-combinatorics'
     },
-    {
-      id: 7,
-      title: 'UWaterloo Math Webring',
-      description: 'Community-driven webring featuring 100+ mathematics students and alumni from the University of Waterloo.',
-      technologies: ['TypeScript', 'React', 'CSS'],
-      github: 'https://github.com/JummyJoeJackson/math-webring'
-    }
+    // {
+    //   id: 7,
+    //   title: 'UWaterloo Math Webring',
+    //   description: 'Community-driven webring featuring 100+ mathematics students and alumni from the University of Waterloo.',
+    //   technologies: ['TypeScript', 'React', 'CSS'],
+    //   github: 'https://github.com/JummyJoeJackson/math-webring'
+    // }
   ]
 
   return (

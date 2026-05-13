@@ -42,7 +42,7 @@ function Hero() {
         <h1 className="hero-title">
           {displayText}<span className="cursor">|</span>
         </h1>
-        <p className="hero-subtitle">Math @ uWaterloo</p>
+        <p className="hero-subtitle">CS + CO @ uWaterloo</p>
         <div className="social-icons">
           <MagneticIcon href="mailto:rr2li@uwaterloo.ca" className="social-icon" ariaLabel="Email">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
