@@ -18,9 +18,9 @@ function Header() {
           <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>
             Projects
           </NavLink>
-          <NavLink to="/blog" className={({ isActive }) => isActive ? 'active' : ''}>
+          {/* <NavLink to="/blog" className={({ isActive }) => isActive ? 'active' : ''}>
             Blog
-          </NavLink>
+          </NavLink> */}
           <ThemeToggle />
         </nav>
       </div>
