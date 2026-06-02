@@ -7,18 +7,7 @@ function About() {
       <div className="about-content">
         <div className="about-text">
           <p>
-            Passionate about algorithmic and data-driven systems, computational modeling, and abstract mathematics.
-            In my free time I enjoy:
-          </p>
-          <ul className="interests-list">
-            <li>building end-to-end projects</li>
-            <li>tackling hard math problems</li>
-            <li>playing poker (NLH)</li>
-            <li>playing golf (handicap confidential)</li>
-            <li>good books, movies (<a href="https://letterboxd.com/rli8145/" target="_blank" rel="noopener noreferrer" className="external-link">Letterboxd<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>), and music (<a href="https://open.spotify.com/user/ryanli-nz" target="_blank" rel="noopener noreferrer" className="external-link">Spotify<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>)</li>
-          </ul>
-          <p>
-            Currently a systems developer at{' '}
+          Currently a systems developer at{' '}
             <a href="https://www.canada.ca/en/environment-climate-change.html" target="_blank" rel="noopener noreferrer" className="external-link">
               Environment and Climate Change Canada
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -33,8 +22,17 @@ function About() {
                 <line x1="7" y1="17" x2="17" y2="7"/>
                 <polyline points="7 7 17 7 17 17"/>
               </svg>
-            </a>
-            . I'm always open to discussing new opportunities and ideas; please feel free to{' '}
+            </a>. In my free time I enjoy:
+          </p>
+          <ul className="interests-list">
+            <li>building end-to-end projects</li>
+            <li>tackling hard math problems</li>
+            <li>playing poker (NLH)</li>
+            <li>playing golf (handicap confidential)</li>
+            <li>good books, movies (<a href="https://letterboxd.com/rli8145/" target="_blank" rel="noopener noreferrer" className="external-link">Letterboxd<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>), and music (<a href="https://open.spotify.com/user/ryanli-nz" target="_blank" rel="noopener noreferrer" className="external-link">Spotify<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg></a>)</li>
+          </ul>
+          <p>
+            I'm always open to discussing new opportunities and ideas; please feel free to{' '}
             <a href="mailto:rr2li@uwaterloo.ca" className="external-link">
               reach out
               <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -51,3 +49,6 @@ function About() {
 }
 
 export default About
+
+// Passionate about algorithmic and data-driven systems, computational modeling, and abstract mathematics.
+// In my free time I enjoy: 
